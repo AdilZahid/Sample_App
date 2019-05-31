@@ -3,15 +3,15 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.3'
 
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rubocop', '~> 0.70.0', require: false
 gem 'rails', '~> 5.2.3'
+gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 gem 'bcrypt', '~> 3.1.7'
 gem 'faker', '~> 1.9', '>= 1.9.3'
 gem 'mini_magick', '~> 4.8'
 gem 'will_paginate', '~> 3.1', '>= 3.1.7'
 gem 'bootstrap-will_paginate', '~> 1.0'
-gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
@@ -28,6 +28,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
